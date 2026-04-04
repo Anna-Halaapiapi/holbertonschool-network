@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Map hosts to IPs using tee, appending the entries instead of overwriting the file using -a
+echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts > /dev/null
+echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null

@@ -27,4 +27,4 @@ The database will receive requests to fetch or store data from the application s
 Results are then returned up the chain and the browser renders the results.
 
 ## Everything's better with a pretty diagram
-[!Diagram](./diagram.png)
+![Diagram](./diagram.png)
